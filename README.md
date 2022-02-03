@@ -21,3 +21,5 @@ uvicorn main:app --reload
 ```
 
 That should expose the server, try the [dice endpoint](http://127.0.0.1:8000/api/v1/roll/6)
+
+You can see the API doc in http://127.0.0.1:8000/docs or http://127.0.0.1:8000/redoc
